@@ -54,6 +54,10 @@ python manage.py sqlmigrate core 0001 o número no caso é somente o que foi alt
 ele cria uma pk, com a interface do django e qualquer banco de dados.
 
 
+exemplo da query 
+CREATE TABLE "evento" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "titulo" varchar(100) NOT NULL, "descricao" text NULL, "data_evento" datetime NOT NULL, "da
+ta_criacao" datetime NOT NULL);
+COMMIT;
 
 
 
