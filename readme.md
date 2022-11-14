@@ -34,3 +34,15 @@ para criar uma nova rota:
 django-admin startapp core
 
 
+criar um banco de dados com django
+
+python manage.py migrate
+
+criar um usuario django-admin
+
+python manage.py createsuperuser --username admin
+
+e inserir usuario e senha no terminal.
+
+
+
